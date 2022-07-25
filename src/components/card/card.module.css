@@ -1,0 +1,47 @@
+.container {
+  border-radius: 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+  width: max-content;
+  color: grey;
+  background-color: white;
+}
+
+.topContainer {
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.imageContainer {
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+}
+
+.infos {
+  padding: 2rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+  color: #212121;
+}
+
+.bottomContainer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.stars {
+  margin-left: 6rem;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 1.6rem;
+}
+
+.star:not(:last-child) {
+  margin-right: 0.6rem;
+}
